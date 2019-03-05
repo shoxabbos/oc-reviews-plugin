@@ -1,0 +1,4 @@
+title: Reviews
+modelClass: Shohabbos\Reviews\Models\Review
+toolbar:
+    buttons: reorder_toolbar

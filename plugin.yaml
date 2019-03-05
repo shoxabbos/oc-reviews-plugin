@@ -1,0 +1,15 @@
+plugin:
+    name: 'shohabbos.reviews::lang.plugin.name'
+    description: 'shohabbos.reviews::lang.plugin.description'
+    author: Shohabbos
+    icon: oc-icon-comment-o
+    homepage: ''
+permissions:
+    manage_reviews:
+        tab: 'shohabbos.reviews::lang.plugin.name'
+        label: 'Manage reviews'
+navigation:
+    shohabbos-reviews:
+        label: Reviews
+        url: shohabbos/reviews/reviews
+        icon: icon-comment-o

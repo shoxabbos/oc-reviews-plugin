@@ -1,0 +1,10 @@
+name: Reviews
+form: $/shohabbos/reviews/models/review/fields.yaml
+modelClass: Shohabbos\Reviews\Models\Review
+defaultRedirect: shohabbos/reviews/reviews
+create:
+    redirect: 'shohabbos/reviews/reviews/update/:id'
+    redirectClose: shohabbos/reviews/reviews
+update:
+    redirect: shohabbos/reviews/reviews
+    redirectClose: shohabbos/reviews/reviews
